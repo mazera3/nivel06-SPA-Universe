@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+#app {
+  margin: 0 auto;
+  width: 100vw;
+  height: 72rem;
+}
+nav {
+  margin-top: 4rem;
+  margin-left: 7.2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 4rem;
+  gap: 3.2rem;
+  justify-content: start;
+  font-size: 2.2rem;
+}
+nav a {
+  color: #c4c4cc;
+  text-decoration: none;
+}
+a:hover {
+  font-weight: bold;
+  color: #fff;
+}
+.active {
+  font-weight: bold;
+  color: #fff;
+}
+.home {
+  margin-top: 17.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.home h1 {
+  font-size: 48px;
+  color: #fff;
+  font-weight: bold;
+}
+.home button {
+  margin-top: 2.4rem;
+  padding: 12px 32px;
+  background-color: transparent;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  gap: 8px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+}
+.home button:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #02799d;
+}
+.universo {
+  margin-left: 10.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+.universo h1 {
+  margin-top: 6.3rem;
+  font-size: 48px;
+  color: #fff;
+  font-weight: bold;
+}
+.universo p {
+  font-size: 18px;
+  line-height: 2.8rem;
+  color: #fff;
+  width: 64.8rem;
+  margin-top: 1.6rem;
+}
+.exploracao {
+  margin-left: 10.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+.exploracao h1 {
+  margin-top: 6.3rem;
+  font-size: 48px;
+  color: #fff;
+  font-weight: bold;
+}
+.exploracao p {
+  font-size: 18px;
+  line-height: 2.8rem;
+  color: #fff;
+  width: 64.8rem;
+  margin-top: 1.6rem;
+}
